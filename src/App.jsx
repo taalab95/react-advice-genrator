@@ -1,8 +1,8 @@
-import AdviceBox from "./components/adviceBox";
+import AdviceCard from "./components/AdviceCard";
 const App = () => {
   return (
     <>
-      <AdviceBox />
+      <AdviceCard />
     </>
   );
 };

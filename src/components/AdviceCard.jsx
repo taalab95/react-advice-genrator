@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const AdviceBox = () => {
+const AdviceCard = () => {
   const [text, setText] = useState(null);
-
   const [trigger, setTrigger] = useState(false);
   const fetchData = async () => {
     const res = await fetch("https://api.adviceslip.com/advice");
@@ -38,4 +37,4 @@ const AdviceBox = () => {
   );
 };
 
-export default AdviceBox;
+export default AdviceCard;
