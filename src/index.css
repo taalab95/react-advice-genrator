@@ -1,0 +1,88 @@
+body {
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+
+
+}
+
+.card {
+  position: relative;
+  background-color: #313a49;
+  width: 500px;
+  height: 225px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.card hr {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid #465366;
+}
+
+.text-content {
+  margin-bottom: 50px;
+  text-align: center;
+  height: 45%;
+  width: 80%;
+}
+
+.text-content h3 {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #53ffab;
+  margin-bottom: 30px;
+}
+
+.text-content q {
+  color: #cee3e8;
+}
+
+.pause {
+  text-align: center;
+  position: absolute;
+  top: 135px;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #cee2e9;
+  background-color: #313a49;
+}
+
+button {
+  position: absolute;
+  bottom: -15px;
+  background-color: #53ffab;
+  border-radius: 50%;
+  padding: 15px;
+  border: 0;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 159, 0.8), 0 0 40px rgba(0, 255, 159, 0.5);
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+  .card {
+    width: 250px;
+    height: 300px;
+  }
+
+  .pause {
+    top: 170px;
+  }
+}
